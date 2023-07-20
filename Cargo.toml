@@ -1,6 +1,6 @@
 [package]
 name = "sogouda"
-version = "0.1.0-alpha.1"
+version = "0.1.0-alpha.2"
 edition = "2021"
 description = "♥ Create lightweight desktop apps using HTML/CSS/JS ♥"
 license = "MPL-2.0"
@@ -9,7 +9,7 @@ authors = ["Ashelynne Juniper <support@ashejuniper.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "sogaouda"
+name = "sogouda"
 crate-type = ["cdylib", "rlib"]
 doc = true
 bench = false
