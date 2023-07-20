@@ -1,0 +1,20 @@
+[package]
+name = "sogouda"
+version = "0.1.0-alpha"
+edition = "2021"
+description = "♥ Create lightweight desktop apps using HTML/CSS/JS ♥"
+license = "MPL-2.0"
+authors = ["Ashelynne Juniper <support@ashejuniper.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "sogaouda"
+crate-type = ["cdylib"]
+doc = true
+bench = false
+edition = "2021"
+
+[dependencies]
+# deno_core = "0.112.0"
+web-view = "0.7.3"
